@@ -41,6 +41,7 @@ LoadBalancer
 AWS Configure
 ![aws](https://github.com/user-attachments/assets/706bfb62-a351-47aa-b78a-20fd1bd375e4)
 Yaml
+
 ![deployment yaml](https://github.com/user-attachments/assets/9dd0c23d-7ea3-4513-915f-c36ef891e885)
 ![service yaml](https://github.com/user-attachments/assets/d984d7ac-8cc1-4d88-a5c5-fa40ee04a4ad)
 ![apply yaml](https://github.com/user-attachments/assets/7d458d2b-127e-4a25-ad83-6c41e05d1d43)
