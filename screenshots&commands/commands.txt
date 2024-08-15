@@ -1,0 +1,33 @@
+Dockerfile Commands
+
+FROM python:3.9-slim
+I used "python:3.9-slim" because the application was developed in python and I wanted to keep the image size small.
+
+WORKDIR /usr/src/app
+I set the working directory to "/usr/src/app". To make my Docker container more organized, compatible and portable, I specified the WORKDIR /usr/src/app directory.
+
+COPY . /usr/src/app
+Adds all files and directories in the directory where the Dockerfile file is located inside the Docker image.
+
+RUN pip install --no-cache-dir Flask
+"pip install": This is the "pip" command used to install Python packages. It installs the Flask package and its dependencies required for my Docker container to run the Flask application. During this installation process, I used the --no-cache-dir command to ensure that temporary files are not stored in the image, which optimizes the size of my Docker image.
+
+CMD python case.py
+The "CMD python case.py" command makes the Python script "case.py" run inside the container when the Docker image is started.
+
+Git Commands
+
+git init
+I came to the project folder and converted the directory into a git project with the "git init" command.
+
+git add.
+I added the files in the directory to the staging area with the "git add." command.
+
+git commit -m "Last version"
+I save the Dockerfile that I added with the "git add" command to the git repository. I am adding the "Last version" message to the changes made with the -m parameter.
+
+git remote add githubrepo https://github.com/YusufEmirAltay/api_flask_case24.git 
+I used this command to add a specified remote repository to a Git repository, thereby establishing a connection between the local Git repository and the remote Git repository.
+
+git push -u githubrepo master
+I pushed my changes from Git Repository to Repository on GitHub
