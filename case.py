@@ -8,7 +8,6 @@ def get_msg():
 
 @app.route('/health', methods=['GET'])
 def health_check():
-    # Burada uygulamanın sağlık durumunu kontrol eden bir mantık ekleyebilirsiniz.
     return jsonify({"status": "healthy"})
 
 @app.route('/', methods=['POST'])
