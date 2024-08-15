@@ -16,10 +16,10 @@
 ![container running2](https://github.com/user-attachments/assets/0f6434db-15c3-4262-94ae-f468405f7d05)
 
 ### How to create Kubernetes Cluster
-1. I use AWS Elastic Kubernetes Servise to create cluster.
-2. I started the first step of opening a cluster by opening the EKS page in AWS and pressing the Add cluster button.
-3. After that, I configured the cluster settings as I wanted and opened an empty cluster.
-4. After creating the cluster, I created a node group by configuring the settings I needed for the task from the compute tab.
+1. I use `AWS Elastic Kubernetes Servise` to create `cluster`.
+2. I started the first step of opening a cluster by opening the EKS page in AWS and pressing the `Add cluster` button.
+3. After that, I configured the cluster settings as I wanted and opened an `empty cluster`.
+4. After creating the cluster, I created a `node group` by configuring the settings I needed for the task from the `compute tab`.
 5. I installed the kubectl tool to perform various management and configuration operations on Kubernetes 
 6. Since I use AWS, I also downloaded the `AWS CLI` to my system. (https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 7. I accessed my AWS account using the AWS CLI. While doing this, I first configured the CLI using my AWS Access Key ID and Secret Access Key information.
