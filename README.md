@@ -20,7 +20,7 @@
 2. I started the first step of opening a cluster by opening the EKS page in AWS and pressing the `Add cluster` button.
 3. After that, I configured the cluster settings as I wanted and opened an `empty cluster`.
 4. After creating the cluster, I created a `node group` by configuring the settings I needed for the task from the `compute tab`.
-5. I installed the kubectl tool to perform various management and configuration operations on Kubernetes. (https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
+5. I installed the `kubectl` tool to perform various management and configuration operations on Kubernetes. (https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
 6. Since I use AWS, I also downloaded the `AWS CLI` to my system. (https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 7. I accessed my AWS account using the AWS CLI. While doing this, I first configured the CLI using my AWS Access Key ID and Secret Access Key information.
 8. I filled in the `AWS Access Key ID`, `AWS Secret Access Key`, `Default region name`, `Default output format` information according to my AWS account.
