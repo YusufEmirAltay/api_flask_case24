@@ -4,7 +4,7 @@
 1. First, you need to install Docker on your system. You can download and install Docker from its official website.
 2. To run Docker commands, you need to open terminal or command prompt.
 3. To use the Docker image, you need to pull it. You can type the `docker pull ysufemrlty/case24:latest` command  to pull the image.
-4. You can type the `docker container run sufemrlty/case24` command to run the Docker image.
+4. You can type the `docker container run ysufemrlty/case24` command to run the Docker image.
 -----
 ### Descriptions of commands
 1. The `docker pull` command is used to download the Docker image from a Docker hub or other Docker image repository (registry). This command pulls the specified image into your local Docker environment, allowing you to use that image later.
