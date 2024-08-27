@@ -7,7 +7,7 @@
 4. You can type the `docker container run ysufemrlty/case24` command to run the Docker image.
 -----
 ### Descriptions of commands
-1. The `docker pull` command is used to download the Docker image from a Docker hub or other Docker image repository (registry). This command pulls the specified image into your local Docker environment, allowing you to use that image later.
+1. The `docker pull` command is used to pull the Docker image from a Docker hub or other Docker image repository (registry). This command pulls the specified image into your local Docker environment, allowing you to use that image later.
 2. The `docker container run` command is used to create and run a new Docker container from the Docker image. This command allows you to start a container based on the Docker image.
 3. The `ysufemrlty/case24` we ​​type at the end of the commands is the name of our docker image.
 
