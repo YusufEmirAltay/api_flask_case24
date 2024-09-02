@@ -22,7 +22,7 @@
 4. After creating the cluster, I created a `node group` by configuring the settings I needed for the task from the `compute tab`.
 5. I installed the `kubectl` tool to perform various management and configuration operations on Kubernetes. (https://kubernetes.io/docs/tasks/tools/install-kubectl-linux/)
 6. Since I use AWS, I also downloaded the `AWS CLI` to my system. (https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
-7. I accessed my AWS account using the AWS CLI. While doing this, I first configured the CLI using my AWS Access Key ID and Secret Access Key information.
+7. I accessed my AWS account using the AWS CLI. While doing this, I first configured the CLI using my AWS Access Key ID and Secret Access Key information by using `aws configure` command.
 8. I filled in the `AWS Access Key ID`, `AWS Secret Access Key`, `Default region name`, `Default output format` information according to my AWS account.
 9. I needed to connect to my EKS cluster with kubectl commands via AWS CLI. To do this I used the command `aws eks --region eu-central-1 update-kubeconfig --name case24`
 10. I needed to deploy my Kubernetes cluster and Docker image. I used Kubernetes `deployment.yaml` and `service.yaml` files for this process.
